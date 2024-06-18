@@ -1,2 +1,24 @@
 #!/bin/bash
-gcc -S main.c
+
+# Informations de connexion
+SERVER="ssh.cod-eu-west-3.hbtn.io"
+USER="root"
+PASS="37862834320d4d24b708d14e70cc779f"
+PORT="19347"  # Par exemple, 2222
+
+# Fichier à envoyer
+FILE="2-main.c"
+
+# Chemin distant où le fichier sera envoyé (vous pouvez le modifier)
+REMOTE_PATH="."
+
+# Utilisation de l'outil lftp pour envoyer le fichier avec un port spécifique
+lftp -e "set sftp:connect-program 'ssh -a -x -p $PORT'; put $FILE -o $REMOTE_PATH/$FILE; bye" -u $USER,$PASS sftp://$SERVER
+
+# Vérification du statut de la commande lftp
+if [ $? -eq 0 ]; then
+    echo "Le fichier $FILE a été envoyé avec succès à $SERVER sur le port $PORT."
+else
+    echo "Échec de l'envoi du fichier $FILE à $SERVER sur le port $PORT."
+fi
+
