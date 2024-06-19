@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/**
+ * main - print with proper grammar, but the outcome is a piece of art,
+ *
+ * return - sucess ending of the program
+ */
+
+int main(void)
+{
+
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
+}
