@@ -3,7 +3,7 @@
 /**
  * main - print with proper grammar, but the outcome is a piece of art,
  *
- * return - sucess ending of the program
+ * Return: 0
  */
 
 int main(void)
