@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - do a verification to see if the number
@@ -17,14 +17,17 @@ int main(void)
 	if (n > 0)
 	{
 
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
 
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 	}
 	else
+	}
+
 		printf("It's 0\n");
+	}
 	return (0);
 }
