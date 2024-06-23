@@ -1,4 +1,4 @@
-#incude <stdio.h>
+#include <stdio.h>
 
 /**
 * main - Gave alphabet from a to z
