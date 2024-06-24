@@ -19,10 +19,7 @@
 int main(void)
 {
 
-/*char n &accolade pour definir tableau ASCII& = putchar recall n[]*/
 char n[] = "_putchar";
-
-/*entier a*/
 
 int a = 0;
 {
