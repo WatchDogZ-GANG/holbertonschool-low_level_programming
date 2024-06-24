@@ -25,8 +25,8 @@ int main(void)
 	for (a = 0; a < 8; a++)
 	{
 		_putchar(n[a]);
-		_putchar('\n');
 	}
 
+	_putchar('\n');
 	return (0);
 }
