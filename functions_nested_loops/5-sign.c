@@ -4,7 +4,7 @@
 int print_sign(int n)
 {
 
-if (n >= 1; n <=9)
+if (n >= 1 && n <=9)
 {
 _putchar('+');
 return (1);
