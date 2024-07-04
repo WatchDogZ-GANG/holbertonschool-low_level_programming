@@ -9,8 +9,12 @@
 int main(void)
 {
 
-putchar("0123456789");
-putchar("abcdef");
-putchar("\n");
+char a;
+
+for (a = '0'; a >= '9'; a++)
+putchar(a);
+for (a = 'a'; a >= 'f'; a++)
+putchar(a);
+putchar('\n');
 return (0);
 }
