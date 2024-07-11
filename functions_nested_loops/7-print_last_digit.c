@@ -12,7 +12,12 @@ int print_last_digit(int r)
 
 int y;
 
-y = x % 10;
+y = r % 10;
 
-printf("%d\n", y);
+if ( y > 0)
+
+y *= -1;
+
+_putchar (y + '0');
+return (y);
 }
