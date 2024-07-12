@@ -17,7 +17,7 @@ int a, b, c;
 
 		_putchar('0');
 		
-		for (a = 1; a <= 9; a++)
+		for (b = 1; b <= 9; b++)
 		{
 
 			_putchar(',');
