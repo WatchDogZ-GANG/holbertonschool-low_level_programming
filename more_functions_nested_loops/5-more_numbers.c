@@ -17,7 +17,7 @@ b = 0;
 while (b < 10)
 {
 
-	for (a = 0; a < 14, a++)
+	for (a = 0; a < 14; a++)
 	{
 		_putchar(a);
 	}
