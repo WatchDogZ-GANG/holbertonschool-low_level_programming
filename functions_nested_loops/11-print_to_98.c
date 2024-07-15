@@ -26,7 +26,7 @@ if (o < p)
                 	printf("%d, ", o);
 	}
 else if (o > p)
-	for (o = n; o >= p; p--)
+	for (o = n; o >= p; o--)
 	{
 
 		if (o == 98)
