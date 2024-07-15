@@ -36,5 +36,5 @@ else if (o > p)
 	}
 else
 	printf("%d\n", o);
-return (0);
+
 }
