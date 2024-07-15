@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 
-
-
 /**
  * main - Betty docs
  *
@@ -12,13 +10,31 @@
 void print_to_98(int n)
 {
 
-int o;
+int o, p;
 
-o = 98;
+p = 98;
+o = n;
 
-if (n < o, n++)
-	printf("%d, ", n);
-else (n > o, n--)
-	printf("%d, ", n);
+if (o < p)
 
+	for (o = n; o <= p; o++)
+	{
+
+        	if (o == 98)
+                	printf("%d\n", o);
+        	else    
+                	printf("%d, ", o);
+	}
+else if (o > p)
+	for (o = n; o >= p; p--)
+	{
+
+		if (o == 98)
+			printf("%d\n", o);
+		else
+			printf("%d, ", o);
+	}
+else
+	printf("%d\n", o);
+return (0);
 }
