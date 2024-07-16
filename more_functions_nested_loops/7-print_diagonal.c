@@ -20,10 +20,10 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 
-	else
+	else if (n > 0)
 	{
 
-		for (r = 0; r > n; r++)
+		for (r = 0; r < n; r++)
 		{
 
 			for (f = 0; f < r; f++)
@@ -35,6 +35,10 @@ void print_diagonal(int n)
 			_putchar(a);
 			_putchar('\n');
 		}
+	}
+
+	else
+	{
 	}
 
 }
