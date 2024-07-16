@@ -12,7 +12,7 @@ void print_diagonal(int n)
 
 	int r;
 
-	char a = "\";
+	char a = '\\';
 
 	if (n != 0)
 	{
