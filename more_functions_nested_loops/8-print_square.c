@@ -10,7 +10,7 @@
 void print_square(int size)
 {
 
-	int go;
+	int go, to;
 
 
 	if (size <= 0)
@@ -21,13 +21,16 @@ void print_square(int size)
 
 	else
 	{
-
-		for (go = 0; go <= size; go++)
+		for (go = 0; go < size; go++)
 		{
 
-			_putchar('#');
-		}
+			for (to = 0; to < size; to++)
+			{
 
-		_putchar('\n');
+				_putchar('#');
+			}
+
+			_putchar('\n');
+		}
 	}
 }
