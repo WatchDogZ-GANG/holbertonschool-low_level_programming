@@ -9,20 +9,26 @@
 
 void more_numbers(void)
 {
+	int a, b;
 
-int a, b;
-
-b = 0;
-
-while (b < 10)
-{
-
-	for (a = '0'; a < '14'; a++)
+	for (a = 0; a < 10; a++)
 	{
-		_putchar(a);
-	}
 
-	_putchar('\n');
-	b++;
+		for (b = 0; b <= 14; c++)
+		{
+
+			if (b > 9)
+			{
+
+				_putchar((b / 10) + '0');
+			}
+
+			/* Imprimer le chiffre des unité */
+			_putchar((b % 10) + '0');
+		}
+
+		/* Print un saut de ligne */
+		_putchar('\n');
+	}
 }
-}
+
