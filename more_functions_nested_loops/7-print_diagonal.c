@@ -10,7 +10,7 @@
 void print_diagonal(int n)
 {
 
-	int r;
+	int r, f;
 
 	char a = '\\';
 
@@ -25,6 +25,13 @@ void print_diagonal(int n)
 
 		for (r = 0; r > n; r++)
 		{
+
+			for (f = r; f > 0; f--)
+			{
+
+				_putchar(' ');
+			}
+
 			_putchar(a);
 			_putchar('\n');
 		}
