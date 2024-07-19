@@ -23,16 +23,13 @@ for (a = 0; a <= size; a++) /* Pour a qui est egal 1, si a inferieur ou egal a s
 			_putchar(' '); 
 		}
 
-		else if (a <= size)
+		else
 		{
 
-		_putchar('');
+		_putchar('#');
 		}	
-		else /* Sinon je print le caracter voulu */
-		{
-
-			_putchar('\n');
-		}
 	}
+
+	_putchar('\n');
 }
 }
