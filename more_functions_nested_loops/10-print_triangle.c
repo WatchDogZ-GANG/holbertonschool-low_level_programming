@@ -22,14 +22,17 @@ for (a = 1; a <= size; a++) /* Pour a qui est egal 1, si a inferieur ou egal a s
 
 			_putchar(' '); 
 		}
-		
+
+		else if (a <= size)
+		{
+
+		_putchar('');
+		}	
 		else /* Sinon je print le caracter voulu */
 		{
 
-			_putchar('#');
+			_putchar('\n');
 		}
 	}
-
-	_putchar('\n'); /* Le saut de ligne pour donner forme au triangle */
 }
 }
