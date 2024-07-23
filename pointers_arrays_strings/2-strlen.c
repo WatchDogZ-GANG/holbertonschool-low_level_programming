@@ -12,7 +12,7 @@ int _strlen(char *s)
 
 size_t length = 0; /*Taille d'un texte*/
 
-while (*str++)
+while (*s++)
 {
 	length++;
 }
