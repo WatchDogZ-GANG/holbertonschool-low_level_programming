@@ -18,10 +18,10 @@ while (s[len] > '\0')
 	len++;
 }
 
-while (i >= 0; len--)
+while (i >= 0; i--)
 {
 
-	_putchar(s[len]);
+	_putchar(s[i]);
 }
 
 _putchar('\n');
