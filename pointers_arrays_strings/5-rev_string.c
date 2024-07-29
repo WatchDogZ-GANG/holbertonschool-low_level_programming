@@ -7,10 +7,13 @@
  * Return: 0
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 
 int len = 0;
+char a = ' ';
+
+a--;
 
 while (s[len] != '\0')
 {
@@ -21,8 +24,7 @@ while (len >= 0)
 {
 
 	len--;
-	_putchar(s[len]);
+	a = (s[len]);
 }
 
-_putchar('\n');
 }
