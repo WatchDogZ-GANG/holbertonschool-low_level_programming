@@ -18,7 +18,7 @@ while (s[len] > '\0')
 	len++;
 }
 
-if ( i >= 0; i--)
+if (i >= 0; i--)
 {
 
 	_putchar(str[i]);
