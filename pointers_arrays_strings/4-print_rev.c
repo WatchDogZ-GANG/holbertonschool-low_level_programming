@@ -13,9 +13,9 @@ void print_rev(char *s)
 int len = 0;
 int i = len - 1;
 
-while (s[l] > '\0')
+while (s[len] > '\0')
 {
-	l++;
+	len++;
 }
 
 if ( i >= 0; i--)
