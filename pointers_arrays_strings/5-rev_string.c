@@ -36,7 +36,11 @@ void rev_string(char *s)
 
 	v[j] = '\0';
 
-	s = v;
+	for (i = 0; i <= len; i++)
+	{
+
+		s[i] = v[i];
+	}
 
 	free(v);
 }
