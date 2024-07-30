@@ -18,7 +18,7 @@ while (s[len] > '\0')
 	len++;
 }
 
-while (i <= 0)
+while (i != 0)
 {
 
 	i--;
