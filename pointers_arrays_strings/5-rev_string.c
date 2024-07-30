@@ -34,5 +34,6 @@ while (i != 0)
 	str[j] = a;
 }
 
+s = str;
 _putchar('\n');
 }
