@@ -11,14 +11,14 @@ void puts2(char *str)
 {
 
 int len = 0;
-int i;
+int i = 0;
 
 while (str[len] > '\0')
 {
 	len++;
 }
 
-if ((i = 0) || (i >= len))
+if (i > len)
 {
 
 	_putchar(str[i]);
