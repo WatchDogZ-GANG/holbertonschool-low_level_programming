@@ -12,7 +12,9 @@ void rev_string(char *s)
 
 int len = 0;
 int i;
+int j = 0;
 char a = ' ';
+char str[len];
 
 a--;
 
@@ -28,6 +30,8 @@ while (i != 0)
 
 	i--;
 	a = (s[i]);
+	j++;
+	str[j] = a;
 }
 
 _putchar('\n');
