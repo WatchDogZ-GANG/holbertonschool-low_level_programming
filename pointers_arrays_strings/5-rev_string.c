@@ -14,6 +14,7 @@ void rev_string(char *s)
 	int len = 0;
 	int i, j = 0;
 	char a;
+	char *v;
 
 	while (s[len] != '\0')
 	{
@@ -21,7 +22,7 @@ void rev_string(char *s)
 		len++;
 	}
 
-	char *v = (char *)malloc((len + 1) * sizeof(char));
+	v = (char *)malloc((len + 1) * sizeof(char));
 
 	i = len;
 
