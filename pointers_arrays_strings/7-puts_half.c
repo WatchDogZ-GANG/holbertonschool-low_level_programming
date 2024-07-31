@@ -19,7 +19,7 @@ while (str[a])
 	a++;
 }
 
-b = a / 2;
+b = ((a + 1) / 2) - 1;
 
 while (b < a)
 {
