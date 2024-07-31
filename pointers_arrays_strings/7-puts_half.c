@@ -19,6 +19,7 @@ while (str[a] != '\0')
 	a++;
 }
 
+a - 1;
 b = a / 2;
 
 while (b <= a)
