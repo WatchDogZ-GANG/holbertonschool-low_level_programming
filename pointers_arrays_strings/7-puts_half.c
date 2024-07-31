@@ -21,7 +21,7 @@ while (str[a] != '\0')
 
 b = a - 1 / 2;
 
-while (b < a)
+while (b <= a)
 {
 
 	_putchar(str[b]);
