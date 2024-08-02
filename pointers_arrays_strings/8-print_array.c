@@ -22,11 +22,11 @@ void print_array(int *a, int n)
 	while (c > b)
 	{
 
-		printf(a);
+		putchar(a[c]);
 		printf(", ");
 		c++;
 	}
 
-	printf('\n');
+	putchar('\n');
 
 }
