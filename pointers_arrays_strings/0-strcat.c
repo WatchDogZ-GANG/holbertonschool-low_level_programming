@@ -5,7 +5,7 @@ char *_strcat(char *dest, char *src)
 {
 	int index, dest_len;
 
-	for (index = 0; dest[index], index++)
+	for (index = 0; dest[index]; index++)
 	{
 		dest_len++;
 	}
