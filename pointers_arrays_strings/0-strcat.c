@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/*
+ * main - Betty coding style
+ *
+ * Return: dest
+ */
+
 char *_strcat(char *dest, char *src)
 {
 	int a = 0, b = 0;
