@@ -3,16 +3,17 @@
 
 char *_strcat(char *dest, char *src)
 {
+	int index, dest_len;
 
-	int b = 0;
-
-	while (src[b] != '\0')
+	for (index = 0; dest[index], index++)
 	{
-
-		dest[b] = src[b];
-		b++;
+		dest_len++;
 	}
 	
-	dest[b] = '\0';
+	for (index = 0; src[index]; index++)
+	{
+		dest[dest_len++] = src[index];
+	}
+	
 	return (dest);
 }
