@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: Print "Programming is like building a multilingual puzzle with Puts
+ * main Print "Programming is like building a multilingual puzzle with Puts
  * Return: O
  */
 
