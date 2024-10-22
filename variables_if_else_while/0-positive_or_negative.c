@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Random gen / 2 and see if it's pstv ou ngtv
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
