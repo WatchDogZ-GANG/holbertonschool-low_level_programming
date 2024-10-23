@@ -16,7 +16,7 @@ int main(void)
 
 	for (n = a - 32; n <= 'Z'; n++)
 	{
-		putchar(a);
+		putchar(n);
 	}
 
 	putchar('\n');
