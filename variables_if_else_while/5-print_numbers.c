@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print without Q and E
+ * main - Print from 0 to 9
  *
  * Return: 0
  */
