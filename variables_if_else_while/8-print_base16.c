@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - Print 0 to 9 / 'a' to 'f'
  *
- *
- *
+ * Return: 0
  */
 int main(void)
 {
