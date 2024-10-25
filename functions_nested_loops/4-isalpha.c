@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * _islower - Verify if it's uppercase letter
+ *
+ * c - Dude, what is this freaking doc
+ *
+ * Return: 0
+ */
+int _isalpha(int c)
+{
+	int a = c;
+
+	if (a >= 65)
+	{
+		if (a <= 90)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+	return (0);
+}
