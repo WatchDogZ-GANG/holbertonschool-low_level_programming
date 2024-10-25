@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - Verify if it's uppercase letter
+ * _islower - Verify if it's lowercase letter
  *
  * c - Dude, what is this freaking doc
  *
@@ -12,16 +12,23 @@ int _isalpha(int c)
 {
 	int a = c;
 
-	if (a >= 65)
+	if (a >= 97)
+	{
+		if (a <= 122)
+		{
+			return (1);
+		}
+		
+	}
+	else if (a >= 65)
 	{
 		if (a <= 90)
 		{
 			return (1);
 		}
-		else
-		{
-			return (0);
-		}
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
