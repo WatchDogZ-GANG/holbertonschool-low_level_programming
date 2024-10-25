@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Folina
+ * print_alphabet_x10 - PERDU, c'est ma
  *
  * Return: 0
  */
