@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
+ * _islower - Verify if it's lowercase letter
  *
- *
- *
+ * Return: 0
  */
 int _islower(int c)
 {
