@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
+ * print_sign - Print +, -, 0 for pos, neg, or 0
  *
- *
- *
+ * Return: 1, 0, -1
  */
 int print_sign(int n)
 {
