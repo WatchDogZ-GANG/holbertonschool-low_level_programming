@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Print Alphabet, one more time
+ * print_alphabet - Folina
  *
  * Return: 0
  */
