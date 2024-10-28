@@ -11,10 +11,10 @@ int _isdigit(int c)
 
 	int a = c;
 
-	if (a >= 0)
+	if (a >= '0')
 	{
 
-		if (a <= 9)
+		if (a <= '9')
 		{
 
 			return (1);
