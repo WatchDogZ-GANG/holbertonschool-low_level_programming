@@ -9,23 +9,13 @@
 void print_line(int n)
 {
 
-	int a, b = n;
+	int a;
 
-	if (b <= 0)
-	{
-
-		_putchar('\n');
-	}
-
-	for (a = 0; a < b; a++)
+	for (a = 0; a < n; a++)
 	{
 
 		_putchar('_');
-
-		if (a == b)
-		{
-
-			_putchar('\n');
-		}
 	}
+
+	_putchar('\n');
 }
