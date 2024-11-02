@@ -21,7 +21,7 @@ void print_diagonal(int n)
 		while (b < a)
 		{
 			b++;
-			putchar(' ')
+			putchar(' ');
 		}
 	}
 }
