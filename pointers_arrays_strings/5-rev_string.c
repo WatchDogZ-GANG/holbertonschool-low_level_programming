@@ -12,7 +12,7 @@ void rev_string(char *s)
         a++;
     }
 
-    while (a-- > b)
+    while (--a > b)
     {
 
         char c = s[a];
