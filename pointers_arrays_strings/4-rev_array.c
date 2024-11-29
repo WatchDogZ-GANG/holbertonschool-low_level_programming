@@ -3,16 +3,16 @@
 
 void reverse_array(int *a, int n)
 {
-	int j = n - 1; 
+	int j = n / 2; 
 	int i, b = 0;
 
-	while (i < n - 1)
+	while (i < j)
 	{
-		b = a[j]; 
-		a[j] = a[i]; 
+		b = a[n]; 
+		a[n] = a[i]; 
 		a[i] = b;
 		i++;
-		j--;
+		n--;
 	}
 
 }
