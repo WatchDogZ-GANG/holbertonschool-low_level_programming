@@ -3,8 +3,15 @@
 
 char *string_toupper(char *a)
 {
-    while (a >= 'a' && a <= 'z')
+
+    int i;
+
+    for (i = 0; a[i] != '\0'; i++)
     {
-        a = a - 64;
+        while (a >= 'a' && a <= 'z')
+        {
+            a = a - 64;
+        }
     }
+
 }
