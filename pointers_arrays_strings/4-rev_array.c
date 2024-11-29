@@ -4,7 +4,8 @@
 void reverse_array(int *a, int n)
 {
 
-	int i = 0, j = 0, b = 0;
+	int i = 0, j = 0;
+	int b[n] = {};
 
 	while (i != n)
 	{
@@ -15,10 +16,10 @@ void reverse_array(int *a, int n)
 	while (j < i)
 	{
 
-		b = a[j];
-		a[j] = a[i];
-		a[i] = b;
+		b[i] = a[j];
 		i--;
 		j++;
 	}
+
+	a[n] = b[n];
 }
