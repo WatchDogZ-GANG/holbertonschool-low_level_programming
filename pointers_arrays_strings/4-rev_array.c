@@ -4,20 +4,15 @@
 void reverse_array(int *a, int n)
 {
 
-	int b = 0, temp = 0;
+	int i = 0, b = 0;
 
-	while (s[b])
+	while (i < n)
 	{
 
-		b++;
-	}
-
-	while (b > temp)
-	{
-
-		a = s[b];
-		s[b] = s[temp];
-		s[temp] = a;
-		temp++;
+		b = a[i];
+		a[i] = a[n];
+		a[n] = b;
+		i++;
+		n--;
 	}
 }
