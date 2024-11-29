@@ -4,9 +4,9 @@
 char *string_toupper(char *a)
 {
 
-    int b = a;
+    char b = a;
 
-    while (b >= 97 && b <= 122)
+    while (b >= 'a' && b <= 'z')
     {
         a = b - 64;
     }
