@@ -4,13 +4,10 @@
 char *string_toupper(char *a)
 {
 
-    int b;
+    int b = a;
 
-    for (b = a; b >= 97; )
+    while (b >= 97 && b <= 122)
     {
-        for (b = a; b <= 122; )
-        {
-            a = b - 64;
-        }
+        a = b - 64;
     }
 }
