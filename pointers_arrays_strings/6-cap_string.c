@@ -25,4 +25,6 @@ char *cap_string(char *a)
 			uppercase = 1;
 		}
 	}
+
+	return (a);
 }
