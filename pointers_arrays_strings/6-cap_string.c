@@ -6,9 +6,10 @@
 char *cap_string(char *a)
 {
 
-	int i, uppercase = 1;
+	int i, b = strlen(a);
+	int uppercase = 1;
 
-	for (i = 0; i < strlen(a); i++)
+	for (i = 0; i < b; i++)
 	{
 
 		if (uppercase)
