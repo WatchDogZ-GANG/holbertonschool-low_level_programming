@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 char *cap_string(char *a)
 {
 
-	int i, b = strlen(a);
+	int i;
 	int uppercase = 1;
 
-	for (i = 0; i < b; i++)
+	for (i = 0; a[i] != '\0'; i++)
 	{
 
 		if (uppercase)
