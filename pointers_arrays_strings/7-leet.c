@@ -45,5 +45,13 @@ char *leet(char *a)
         }
     }
 
+    for (b = 0; a[b] != '\0'; b++)
+	{
+		while (a[b] >= 'a' && a[b] <= 'z')
+		{
+			a[b] = a[b] - 32;
+		}
+	}
+
     return (a);
 }
