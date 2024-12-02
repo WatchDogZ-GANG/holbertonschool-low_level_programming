@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 #include <string.h>
 #include "main.h"
 
@@ -15,7 +14,10 @@ char *cap_string(char *a)
 		if (uppercase)
 		{
 
-			a[i] = toupper(a[i]);
+			while (a[i] >= 'a' && a[i] <= 'z')
+			{
+				a[i] = a[i] - 32;
+			}
 			uppercase = 0;
 
 		}
