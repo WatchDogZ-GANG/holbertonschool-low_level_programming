@@ -3,52 +3,24 @@
 char *leet(char *a)
 {
 
-    int b;
+    int b, c;
+
+    char d = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+    char e = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'}.
 
     for (b = 0; a[b] != '\0'; b++)
     {
 
-        if (a[b] == 'a' || a[b] == 'A')
+        for (c = 0; d[c] != '\0'; c++)
         {
 
-            a[b] = '4';
+            if (d[c] == a[b])
+            {
+
+                a[b] = e[c];
+            }
         }
-
-        else if (a[b] == 'e' || a[b] == 'E')
-        {
-
-            a[b] = '3';
-        }
-
-        else if (a[b] == 'o' || a[b] == 'O')
-        {
-
-            a[b] = '0';
-        }
-
-        else if (a[b] == 't' || a[b] == 'T')
-        {
-
-            a[b] = '7';
-        }
-
-        else if (a[b] == 'l' || a[b] == 'L')
-        {
-
-            a[b] = '1';
-        }
-
-        else
-        {
-
-            ;
-        }
-
-		while (a[b] >= 'a' && a[b] <= 'z')
-		{
-			a[b] = a[b] - 32;
-		}
-	}
+    }
 
     return (a);
 }
