@@ -2,7 +2,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j;
+	int i, j = 0;
 
 	while (*haystack)
 	{
