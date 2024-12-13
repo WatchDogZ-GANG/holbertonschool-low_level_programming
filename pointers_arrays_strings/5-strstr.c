@@ -2,19 +2,18 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j = 0;
+	int i, j;
 
 	while (*haystack)
 	{
 		for (i = 0; needle[i]; i++)
 		{
 
-			while (haystack[i] == needle[j])
+			for (j = 0; haystack[j] == needle[i]; j++)
 			{
 
 					return (needle);
 					i++;
-					j++;
 			}
 		}
 		haystack++;
